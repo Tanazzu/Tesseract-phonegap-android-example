@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.mydomainhere.appnamehere"
-        version     = "1.0.0" >
-    >
+<widget id="com.example.hello" version="0.0.1" x
+    mlns="http://www.w3.org/ns/widgets" 
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Hello Cordova</name>
     <preference name="loglevel" value="DEBUG" />
-<plugin name="tesseractPlugin" value="com.googlecode.tesseract.android"/>
+<plugin name="tesseractPlugin" value="cwww/tesseractPlugin.js"/>
 
 	 <feature name="OcrApiServicePlugin">
         <param name="android-package" value="com.ocrapiservice.OcrApiServicePlugin" />
